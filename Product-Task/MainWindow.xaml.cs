@@ -59,8 +59,7 @@ namespace Product_Task
                 DataContext = vm
             };
             form.ShowDialog();
-            if (vm.Validate())
-                ((MainViewModel)DataContext).Products.Add(vm.Product);
+   
         }
 
         private void DeleteProductClick(object sender, RoutedEventArgs e)

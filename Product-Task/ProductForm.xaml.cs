@@ -37,6 +37,10 @@ namespace Product_Task
         private void OnClosing(object sender, System.ComponentModel.CancelEventArgs e)
         {
             e.Cancel = ((ProductFormViewModel)DataContext).OnWindowClosing();
+            if ((((ProductFormViewModel)DataContext).OnWindowClosing() == true))
+                MessageBox.Show("Hiba: A termék neve legalább 4 karakter kell hogy legyen, mennyisége és az ára legalább 0!");
+         
+               
         }
     }
 }

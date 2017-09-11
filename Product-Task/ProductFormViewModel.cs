@@ -18,7 +18,6 @@ namespace Product_Task
                 Product.Price > -1 &&
                 Product.Quantity > -1;
         }
-
         public bool IsEdit { get; set; }
 
         public bool OnWindowClosing()
@@ -27,7 +26,6 @@ namespace Product_Task
            IsEdit == true
                 &&
                 Validate() != true;
-            
             }
         }
     }
