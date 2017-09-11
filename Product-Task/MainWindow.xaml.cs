@@ -51,7 +51,7 @@ namespace Product_Task
             var vm = new ProductFormViewModel
 
             {
-
+                IsEdit = true, 
                 Product = ((MainViewModel)DataContext).SelectedProduct
             };
             var form = new ProductForm()
@@ -61,6 +61,22 @@ namespace Product_Task
             form.ShowDialog();
             if (vm.Validate())
                 ((MainViewModel)DataContext).Products.Add(vm.Product);
+        }
+
+        private void DeleteProductClick(object sender, RoutedEventArgs e)
+        {
+            var SelectedProduct = ((MainViewModel)DataContext).SelectedProduct;
+            if (SelectedProduct == null)
+            {
+                return;
+            }
+            var vm = new ProductFormViewModel
+
+            {
+
+                Product = ((MainViewModel)DataContext).SelectedProduct
+            };
+                ((MainViewModel)DataContext).Products.Remove(vm.Product);
         }
     }
 }

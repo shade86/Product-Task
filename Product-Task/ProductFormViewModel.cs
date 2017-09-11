@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,5 +19,16 @@ namespace Product_Task
                 Product.Quantity > -1;
         }
 
+        public bool IsEdit { get; set; }
+
+        public bool OnWindowClosing()
+        {
+            return
+           IsEdit == true
+                &&
+                Validate() != true;
+            
+            }
+        }
     }
-}
+

@@ -19,8 +19,10 @@ namespace Product_Task
     /// </summary>
     public partial class ProductForm : Window
     {
+        
         public ProductForm()
         {
+            //this.OnClosing += ProductFormViewModel.OnWindowClosing;
             InitializeComponent();
         }
 
@@ -30,6 +32,11 @@ namespace Product_Task
                 Close();
             else
                 MessageBox.Show("Hiba: A termék neve legalább 4 karakter kell hogy legyen, mennyisége és az ára legalább 0!");
+        }
+
+        private void OnClosing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            e.Cancel = ((ProductFormViewModel)DataContext).OnWindowClosing();
         }
     }
 }
