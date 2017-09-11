@@ -1,0 +1,15 @@
+C:\Users\takacstamas\source\repos\Product-Task\Product-Task\bin\Debug\Product-Task.exe.config
+C:\Users\takacstamas\source\repos\Product-Task\Product-Task\bin\Debug\Product-Task.exe
+C:\Users\takacstamas\source\repos\Product-Task\Product-Task\bin\Debug\Product-Task.pdb
+C:\Users\takacstamas\source\repos\Product-Task\Product-Task\obj\Debug\Product-Task.csprojResolveAssemblyReference.cache
+C:\Users\takacstamas\source\repos\Product-Task\Product-Task\obj\Debug\MainWindow.g.cs
+C:\Users\takacstamas\source\repos\Product-Task\Product-Task\obj\Debug\App.g.cs
+C:\Users\takacstamas\source\repos\Product-Task\Product-Task\obj\Debug\Product-Task_MarkupCompile.cache
+C:\Users\takacstamas\source\repos\Product-Task\Product-Task\obj\Debug\Product-Task_MarkupCompile.lref
+C:\Users\takacstamas\source\repos\Product-Task\Product-Task\obj\Debug\MainWindow.baml
+C:\Users\takacstamas\source\repos\Product-Task\Product-Task\obj\Debug\Product-Task.g.resources
+C:\Users\takacstamas\source\repos\Product-Task\Product-Task\obj\Debug\Product_Task.Properties.Resources.resources
+C:\Users\takacstamas\source\repos\Product-Task\Product-Task\obj\Debug\Product-Task.csproj.GenerateResource.Cache
+C:\Users\takacstamas\source\repos\Product-Task\Product-Task\obj\Debug\Product-Task.csproj.CoreCompileInputs.cache
+C:\Users\takacstamas\source\repos\Product-Task\Product-Task\obj\Debug\Product-Task.exe
+C:\Users\takacstamas\source\repos\Product-Task\Product-Task\obj\Debug\Product-Task.pdb
