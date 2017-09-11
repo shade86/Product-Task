@@ -24,5 +24,42 @@ namespace Product_Task
         {
             InitializeComponent();
         }
+
+        void NewProductClick(object sender, RoutedEventArgs e)
+        {
+            var vm = new ProductFormViewModel
+            {
+                Product = new Product()
+            };
+            var form = new ProductForm()
+            {
+                DataContext = vm
+            };
+            form.ShowDialog();
+            if (vm.Validate())
+                ((MainViewModel)DataContext).Products.Add(vm.Product);
+        }
+
+        private void EditProductClick(object sender, RoutedEventArgs e)
+        {
+            var SelectedProduct = ((MainViewModel)DataContext).SelectedProduct;
+            if (SelectedProduct == null)
+            {
+                return;
+            }
+            var vm = new ProductFormViewModel
+
+            {
+
+                Product = ((MainViewModel)DataContext).SelectedProduct
+            };
+            var form = new ProductForm()
+            {
+                DataContext = vm
+            };
+            form.ShowDialog();
+            if (vm.Validate())
+                ((MainViewModel)DataContext).Products.Add(vm.Product);
+        }
     }
 }
