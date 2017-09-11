@@ -14,8 +14,8 @@ namespace Product_Task
         {
             return Product.Name != null &&
                 Product.Name.Length > 4 &&
-                Product.Price > 0;
-                Product.Quantity > 0;
+                Product.Price > -1 &&
+                Product.Quantity > -1;
         }
 
     }

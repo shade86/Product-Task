@@ -29,7 +29,7 @@ namespace Product_Task
             if (((ProductFormViewModel)DataContext).Validate())
                 Close();
             else
-                MessageBox.Show("Hiba: Kor > 0 és Név hosszabb mint 4");
+                MessageBox.Show("Hiba: A termék neve legalább 4 karakter kell hogy legyen, mennyisége és az ára legalább 1!");
         }
     }
 }

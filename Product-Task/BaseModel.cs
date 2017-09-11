@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Product_Task
 {
-    public class BaseModel: INotifyPropertyChanged
+    public class BaseModel : INotifyPropertyChanged
     {
         
             public event PropertyChangedEventHandler PropertyChanged;

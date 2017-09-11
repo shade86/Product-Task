@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace Product_Task
 {
-    public class MainViewModel
+    public class MainViewModel : BaseModel
     {
         public ObservableCollection<Product> Products { get; set; }
-        public Product SelectedPerson { get; set; }
+        public Product SelectedProduct { get; set; }
         public MainViewModel()
         {
             Products = new ObservableCollection<Product>

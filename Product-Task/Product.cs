@@ -35,7 +35,7 @@ namespace Product_Task
             get { return _quantity; }
             set
             {
-                _price = value;
+                _quantity = value;
                 //OnPropertyChange();
             }
         }
