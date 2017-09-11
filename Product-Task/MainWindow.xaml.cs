@@ -23,6 +23,7 @@ namespace Product_Task
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new MainViewModel();
         }
 
         void NewProductClick(object sender, RoutedEventArgs e)

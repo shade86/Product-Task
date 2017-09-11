@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Product_Task
 {
-    public class Product
+    public class Product : BaseModel
     {
         string _name;
         public string Name
@@ -15,7 +16,7 @@ namespace Product_Task
             set
             {
                 _name = value;
-              //  OnPropertyChange();
+              OnPropertyChange();
             }
         }
         int _price;
@@ -25,7 +26,7 @@ namespace Product_Task
             set
             {
                 _price = value;
-                //OnPropertyChange();
+                OnPropertyChange();
             }
         }
 
@@ -36,7 +37,7 @@ namespace Product_Task
             set
             {
                 _quantity = value;
-                //OnPropertyChange();
+                OnPropertyChange();
             }
         }
     }
