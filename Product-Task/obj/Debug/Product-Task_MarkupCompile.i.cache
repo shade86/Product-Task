@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\takacstamas\source\repos\Product-Task\Product-Task\App.xaml
-21492235899
+3-1916496453
 
-14-1650435749
+17-506783981
 131569487696
-MainWindow.xaml;ProductForm.xaml;
+LoginWindow.xaml;MainWindow.xaml;ProductForm.xaml;
 
-False
+True
 

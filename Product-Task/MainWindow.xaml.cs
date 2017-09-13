@@ -24,6 +24,12 @@ namespace Product_Task
         {
             InitializeComponent();
             DataContext = new MainViewModel();
+            var lvm = new LoginViewModel();
+            var lw = new LoginWindow()
+            {
+                DataContext = lvm
+            };
+            lw.ShowDialog();
         }
 
         void NewProductClick(object sender, RoutedEventArgs e)

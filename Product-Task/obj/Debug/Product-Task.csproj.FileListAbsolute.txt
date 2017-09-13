@@ -15,3 +15,5 @@ C:\Users\takacstamas\source\repos\Product-Task\Product-Task\obj\Debug\Product-Ta
 C:\Users\takacstamas\source\repos\Product-Task\Product-Task\obj\Debug\Product-Task.pdb
 C:\Users\takacstamas\source\repos\Product-Task\Product-Task\obj\Debug\ProductForm.g.cs
 C:\Users\takacstamas\source\repos\Product-Task\Product-Task\obj\Debug\ProductForm.baml
+C:\Users\takacstamas\source\repos\Product-Task\Product-Task\obj\Debug\LoginWindow.g.cs
+C:\Users\takacstamas\source\repos\Product-Task\Product-Task\obj\Debug\LoginWindow.baml
