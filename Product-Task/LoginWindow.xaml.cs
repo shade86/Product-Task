@@ -19,7 +19,6 @@ namespace Product_Task
     /// </summary>
     public partial class LoginWindow : Window
     {
-        
         public LoginViewModel ViewModel { get; }
         public LoginWindow()
         {
@@ -27,10 +26,8 @@ namespace Product_Task
             ViewModel = new LoginViewModel();
             DataContext = ViewModel;
         }
-
         private void LoginClick(object sender, RoutedEventArgs e)
         {
-        
             ViewModel.Password = PasswordTextBox.Password;
             if (ViewModel.Login())
                 Close();
